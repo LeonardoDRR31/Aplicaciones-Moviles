@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verdeDegradadoInicio"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <!-- FRANJA SUPERIOR CON DEGRADADO -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/header_background" />
+
+    <!-- LOGO CENTRADO -->
+    <ImageView
+        android:id="@+id/clinicLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_clinica"
+        android:contentDescription="Logo de la clínica" />
+
+    <!-- IMAGEN PRINCIPAL -->
+    <ImageView
+        android:id="@+id/clinicImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/imagen_clinica"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagen representativa" />
+
+    <!-- TEXTO CLÍNICA CENTRADO -->
+    <TextView
+        android:id="@+id/clinicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clínica Robles"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- LEMA CENTRADO -->
+    <TextView
+        android:id="@+id/clinicMotto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trabajar sin máscaras, emplear sin barreras"
+        android:textSize="16sp"
+        android:textColor="#007542"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- BOTÓN CENTRADO -->
+    <Button
+        android:id="@+id/btnVerEspecialidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Especialidades"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2F7E3B"
+        android:textColor="@color/black" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="verdeInstitucional">#2F7E3B</color>       <!-- Verde principal -->
+    <color name="verdeClaro">#A8E6A2</color>              <!-- Fondo suave -->
+    <color name="verdeDegradadoInicio">#C8FACC</color>    <!-- Degradado arriba -->
+    <color name="verdeDegradadoFin">#66BB6A</color>       <!-- Degradado abajo -->
+    <color name="textoOscuro">#1A1A1A</color>             <!-- Texto principal -->
+    <color name="textoSecundario">#4E944F</color>         <!-- Frase -->
+    <color name="blanco">#FFFFFF</color>
+</resources>
