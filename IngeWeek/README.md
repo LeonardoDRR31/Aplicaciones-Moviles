@@ -9,6 +9,7 @@ Aplicación oficial de la **Semana de la Ingeniería - UNS**, diseñada para ofr
 ### 🏁 Pantalla de Bienvenida (Splash)
 Al iniciar la app, se muestra una pantalla splash con el logotipo de la UNS durante unos segundos antes de redirigir a la pantalla principal.
 
+![Splash](images/splash.png](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/f5ff7fa22a158c20aa2ca98e9dc3005640ea024b/IngeWeek/Splash.jpeg)
 <img src="[images/splash.png](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/f5ff7fa22a158c20aa2ca98e9dc3005640ea024b/IngeWeek/Splash.jpeg)" width="300">
 
 ---
