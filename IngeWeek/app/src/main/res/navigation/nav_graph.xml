@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/agendaFragment">
+
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="com.ingeweek.ui.agenda.AgendaFragment"
+        android:label="Agenda" />
+
+    <fragment
+        android:id="@+id/competenciasFragment"
+        android:name="com.ingeweek.ui.competencias.CompetenciasFragment"
+        android:label="Competencias" />
+
+    <fragment
+        android:id="@+id/seminariosFragment"
+        android:name="com.ingeweek.ui.seminarios.SeminariosFragment"
+        android:label="Seminarios"
+        tools:ignore="MissingClass" />
+    <fragment
+        android:id="@+id/ubicacionesFragment"
+        android:name="com.ingeweek.ui.ubicaciones.UbicacionesFragment"
+        android:label="Ubicaciones" />
+
+
+</navigation>

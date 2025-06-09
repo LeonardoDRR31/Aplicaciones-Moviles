@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="12dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título del evento"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/textHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:00 AM - 11:00 AM"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción breve del evento..."
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

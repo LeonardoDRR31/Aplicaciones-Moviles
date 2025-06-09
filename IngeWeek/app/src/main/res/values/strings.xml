@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IngeWeek</string>
+
+    <!-- Secciones BottomNav -->
+    <string name="agenda">Agenda</string>
+    <string name="competencias">Competencias</string>
+    <string name="seminarios">Seminarios</string>
+    <string name="ubicaciones">Ubicaciones</string>
+
+    <!-- Otros textos -->
+    <string name="title_ingeweek">Semana de la Ingeniería UNS</string>
+</resources>
