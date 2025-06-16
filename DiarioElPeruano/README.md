@@ -11,7 +11,9 @@ Características principales
 ✅ Carga dinámica de contenido desde la web mediante WebView.
 
 ✅ Mensaje central cuando no hay sección seleccionada.
+
 Splash Screen
+
 La pantalla de inicio se muestra durante unos segundos con una animación de escalado y luego redirige automáticamente al menú principal. Se puede también acceder presionando el botón.
 
 Menú de navegación lateral
