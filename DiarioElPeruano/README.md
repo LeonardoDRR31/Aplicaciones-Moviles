@@ -16,8 +16,13 @@ Splash Screen
 
 La pantalla de inicio se muestra durante unos segundos con una animación de escalado y luego redirige automáticamente al menú principal. Se puede también acceder presionando el botón.
 ![Splash](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/f34f4268e1c828706c8b69a4d7ebb19ad194a329/DiarioElPeruano/Splash.jpeg)
-Menú de navegación lateral
-El menú usa ModalNavigationDrawer e incluye tanto opciones simples como con submenús (MenuItem.Simple y MenuItem.WithSubItems). Cada elemento redirige a su respectivo enlace en el WebView.
 
+Menú de navegación lateral
+
+El menú usa ModalNavigationDrawer e incluye tanto opciones simples como con submenús (MenuItem.Simple y MenuItem.WithSubItems). Cada elemento redirige a su respectivo enlace en el WebView.
+![Webview1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview1.jpeg)
+![Webview1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview1.jpeg)
+![Webview1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview1.jpeg)
+![Webview1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview1.jpeg)
 WebView central
 Cuando se selecciona una categoría del menú, se carga su contenido mediante WebView. Si aún no se ha elegido nada, se muestra un mensaje centrado con fondo degradado para guiar al usuario.
