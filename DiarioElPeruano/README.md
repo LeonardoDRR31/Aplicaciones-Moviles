@@ -22,8 +22,8 @@ Menú de navegación lateral
 
 El menú usa ModalNavigationDrawer e incluye tanto opciones simples como con submenús (MenuItem.Simple y MenuItem.WithSubItems). Cada elemento redirige a su respectivo enlace en el WebView.
 
-![Menu1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Menu1.jpeg)
-![Menu2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Menu2.jpeg)
+![Menu1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/29d06f16edb2bb2612dd810e277f885d9c7d02ab/DiarioElPeruano/Menu1.jpeg)
+![Menu2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/29d06f16edb2bb2612dd810e277f885d9c7d02ab/DiarioElPeruano/Menu2.jpeg)
 ![Webview1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview1.jpeg)
 ![Webview2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9d5a48c330452877b049eae4aba30233a884646c/DiarioElPeruano/Webview2.jpeg)
 
