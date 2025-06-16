@@ -40,7 +40,7 @@ Cada opción carga su respectivo contenido mediante WebView.
 
 ## 🌐 Vista Web (WebView)
 
-Cuando se selecciona una categoría, su enlace se carga directamente en un `WebView`. Si no se ha elegido ninguna, se muestra un mensaje con diseño centrado y fondo degradado.
+Cuando se selecciona una categoría, su enlace se carga directamente en un `WebView`. Si no se ha elegido ninguna, se muestra un mensaje simple indicandote elegir una opción del menú.
 
 ### Ejemplos de contenido cargado:
 
