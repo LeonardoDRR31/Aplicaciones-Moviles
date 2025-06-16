@@ -1,5 +1,7 @@
-Diario El Peruano es una aplicación Android construida con Kotlin y Jetpack Compose, que permite acceder de forma organizada y rápida a las distintas secciones del diario oficial del Perú a través de un menú lateral interactivo. Utiliza componentes modernos de Material 3
+Diario El Peruano es una aplicación Android construida con Kotlin y Jetpack Compose, que permite acceder de forma organizada y rápida a las distintas secciones del diario oficial del Perú a través de un menú lateral interactivo. Utiliza componentes modernos de Material 3.
+
 Características principales
+
 ✅ Pantalla Splash personalizada con animación y logo institucional.
 
 ✅ Menú lateral (Navigation Drawer) con categorías y subcategorías.
