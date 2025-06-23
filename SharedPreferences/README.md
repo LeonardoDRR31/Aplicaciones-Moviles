@@ -42,17 +42,17 @@ Este proyecto de Android demuestra cómo utilizar `SharedPreferences` para almac
 
 ### 🔢 Contador de visitas
 
-| Inicio | Tema Oscuro | Contador Reiniciado |
+| Inicio | Cargar datos | Tema claro |
 |--------|-------------|---------------------|
 | ![count1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count1.jpeg?raw=true) | ![count2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count2.jpeg?raw=true) | ![count3](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count3.jpeg?raw=true) |
 
 ### 🧑 Registro de usuario
 
-| Formulario vacío | Imagen seleccionada | Dominio seleccionado |
+| Formulario vacío | Dominio seleccionado | Cargar datos |
 |------------------|---------------------|-----------------------|
 | ![login1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login1.jpeg?raw=true) | ![login2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login2.jpeg?raw=true) | ![login3](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login3.jpeg?raw=true) |
 
-| Datos cargados | Campos limpios |
+| Datos limpiados | Campos limpios |
 |----------------|----------------|
 | ![login4](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login4.jpeg?raw=true) | ![login5](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login5.jpeg?raw=true) |
 
