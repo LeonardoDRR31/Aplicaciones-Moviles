@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema modo oscuro con fondo gris -->
+    <style name="Base.Theme.SharedPreferences" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/darker_gray_dark</item> <!-- gris personalizado -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.SharedPreferences" parent="Base.Theme.SharedPreferences" />
+</resources>

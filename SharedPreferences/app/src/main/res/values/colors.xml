@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores para el modo claro -->
+    <color name="blue_light">#2196F3</color> <!-- Azul claro -->
+    <color name="blue_dark_light">#1976D2</color> <!-- Azul oscuro -->
+    <color name="darker_gray_light">#333333</color> <!-- Gris oscuro para el modo claro -->
+    <!-- Colores para el modo oscuro -->
+    <color name="blue_dark">#64B5F6</color> <!-- Azul claro para el modo oscuro -->
+    <color name="blue_dark_dark">#1565C0</color> <!-- Azul más oscuro para el modo oscuro -->
+    <color name="darker_gray_dark">#2C2C2C</color> <!-- Gris muy oscuro para el fondo -->
+</resources>
+
+

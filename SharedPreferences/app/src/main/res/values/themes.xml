@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SharedPreferences" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Claro: fondo blanco -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <!-- Puedes mantener colorPrimary si quieres -->
+    </style>
+
+    <style name="Theme.SharedPreferences" parent="Base.Theme.SharedPreferences" />
+</resources>
