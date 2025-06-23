@@ -1,123 +1,61 @@
-SharedPreferences Android App 📱
+# 📱 Proyecto: Uso de SharedPreferences en Android
 
-Esta aplicación Android desarrollada en Kotlin demuestra el uso de SharedPreferences para guardar datos del usuario de forma persistente. Incluye gestión de temas (modo oscuro/claro), conteo de visitas, registro con correo electrónico personalizable y navegación entre pantallas.
+Este proyecto de Android demuestra cómo utilizar `SharedPreferences` para almacenar y recuperar datos persistentes como nombre de usuario, correo electrónico, edad, contador de visitas, tema oscuro/claro y selección de imagen de perfil.
 
-🌐 Características
+---
 
-Guardado y carga de datos con SharedPreferences
+## 🧩 Funcionalidades Principales
 
-Cambio entre modo claro y oscuro con Switch
+### 🏠 MainActivity
+- Guardar y mostrar el nombre del usuario.
+- Recordar si es la primera vez que se abre la aplicación.
+- Contador de visitas (incrementa automáticamente cada vez que se abre la app).
+- Tema claro/oscuro con persistencia usando un switch.
+- Navegación a LoginActivity.
+- Reinicio del contador de visitas.
+- Limpieza de datos del usuario (sin afectar el contador).
 
-Registro de datos del usuario: nombre, correo, edad, ID
+### 🔐 LoginActivity
+- Guardar nombre, correo electrónico y edad.
+- Validación de edad (entre 16 y 120 años).
+- Selección de dominio de correo con un `Spinner`.
+- Visualización de los datos guardados.
+- Limpieza completa de datos guardados.
+- Selección de imagen de perfil desde la galería.
 
-Armado de correo electrónico con Spinner de dominios
+---
 
-Selección de foto de perfil
+## 🛠️ Tecnologías Usadas
 
-Contador de visitas con reinicio manual
+- Kotlin
+- Android SDK
+- SharedPreferences
+- AppCompatDelegate (modo oscuro)
+- Jetpack ActivityResult (selección de imagen)
+- XML Layouts
 
-Interfaz moderna con ConstraintLayout y LinearLayout
+---
 
-📁 Estructura del proyecto
+---
 
-com.example.sharedpreferences
-├── MainActivity.kt
-├── LoginActivity.kt
-├── SharedPreferencesHelper.kt
-├── EmailDomains.kt
-├── res/
-│   └── layout/
-│       ├── activity_main.xml
-│       └── activity_login.xml
-│   └── values/
-│       └── strings.xml
+## 📸 Capturas de Pantalla
 
-🚀 Tecnologías utilizadas
+### 🔢 Contador de visitas
 
-Kotlin
+| Inicio | Tema Oscuro | Contador Reiniciado |
+|--------|-------------|---------------------|
+| ![count1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count1.jpeg?raw=true) | ![count2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count2.jpeg?raw=true) | ![count3](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/9063ab2350a15cee29d67696e94ad023f92cee9a/SharedPreferences/count3.jpeg?raw=true) |
 
-Android SDK
+### 🧑 Registro de usuario
 
-SharedPreferences
+| Formulario vacío | Imagen seleccionada | Dominio seleccionado |
+|------------------|---------------------|-----------------------|
+| ![login1](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login1.jpeg?raw=true) | ![login2](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login2.jpeg?raw=true) | ![login3](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login3.jpeg?raw=true) |
 
-ConstraintLayout, LinearLayout
-
-Spinner, Switch, Toast, ImageView
-
-🔍 Explicación de componentes clave
-
-SharedPreferencesHelper.kt
-
-Clase auxiliar que centraliza el manejo de claves y operaciones para guardar/obtener datos como:
-
-Nombre de usuario, correo, edad
-
-Tema oscuro/claro
-
-Contador de visitas
-
-Identificador de usuario
-
-MainActivity.kt
-
-Pantalla principal de la app
-
-Permite ingresar el nombre, cambiar de tema, ver contador de visitas y navegar al registro
-
-LoginActivity.kt
-
-Registro completo del usuario: nombre, correo armado con dominio, edad y foto
-
-Guardado persistente de los datos del usuario
-
-EmailDomains.kt
-
-Objeto que contiene una lista fija de dominios de correo disponibles:
-
-val list = listOf("@gmail.com", "@hotmail.com", "@uns.edu.pe", "@outlook.com")
-
-UI en XML
-
-EditText para nombre, edad, nombre de correo
-
-Spinner para elegir el dominio del correo
-
-ImageView para seleccionar imagen de perfil
-
-TextView para mostrar los datos
-
-🔄 Flujo de la app
-
-El usuario inicia la app por primera vez, se guarda el estado con una bandera isFirstTime
-
-Elige modo claro/oscuro y se guarda esa preferencia
-
-Se puede guardar nombre y navegar al registro
-
-En registro, se arma correo con EditText + Spinner
-
-Se guarda nombre, correo completo y edad
-
-Se puede cargar o limpiar datos
-
-📷 Capturas de pantalla
-
-🏠 MainActivity (pantalla principal)
+| Datos cargados | Campos limpios |
+|----------------|----------------|
+| ![login4](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login4.jpeg?raw=true) | ![login5](https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/d7162d86068fe3d15c0e18c2f42dbbba1fec5efa/SharedPreferences/login5.jpeg?raw=true) |
 
 
 
-👤 LoginActivity (registro del usuario)
 
-
-
-🚪 Requisitos
-
-Android Studio Flamingo o superior
-
-SDK mínimo: API 21 (Android 5.0)
-
-📅 Autor
-
-Leonardo RojasDesarrollador Android - 2025
-
-Proyecto creado con fines educativos para practicar persistencia de datos y personalización de UI en Android.
