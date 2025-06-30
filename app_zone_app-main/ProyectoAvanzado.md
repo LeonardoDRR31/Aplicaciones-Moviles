@@ -16,62 +16,37 @@
 
 ---
 
-## 📸 Capturas de pantalla
+## 🔐 Firebase Authentication
 
-### 🔑 1. Login y Registro
-Permite crear una cuenta o iniciar sesión.
+Pantalla de autenticación de Firebase:
 
-![Login](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Login.jpeg)
-
----
-
-### 🔐 2. Firebase Authentication
-Pantalla de autenticación de Firebase.
-
-![Authentication](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Authentication.PNG)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Authentication.PNG" alt="Firebase Authentication"/>
+</p>
 
 ---
 
-### 🏠 3. Interfaz Principal
-Desde aquí puedes acceder a todas las funciones principales.
+## 📸 Capturas de Pantallas
 
-![Menú Principal](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Menu_principal.jpeg)
-![Interfaz Principal](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Interfaz_principal.jpeg)
-
----
-
-### ➕ 4. Añadir un Juego
-Formulario para registrar un nuevo juego.
-
-![Añadir Juego](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/A%C3%B1adir_juego.jpeg)
-
----
-
-### 📝 5. Editar Juego
-Permite actualizar los datos de un juego existente.
-
-![Editar Juego](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Editar_juego.jpeg)
+| Pantalla | Imagen |
+|---|---|
+| **Login y Registro**<br/>Permite crear una cuenta o iniciar sesión. | ![Login](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Login.jpeg) |
+| **Menú Principal**<br/>Acceso a todas las funciones principales. | ![Menú Principal](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Menu_principal.jpeg) |
+| **Interfaz Principal**<br/>Vista de bienvenida e información del usuario. | ![Interfaz Principal](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Interfaz_principal.jpeg) |
+| **Añadir un Juego**<br/>Formulario para registrar un nuevo juego. | ![Añadir Juego](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/A%C3%B1adir_juego.jpeg) |
+| **Editar Juego**<br/>Actualización de datos de un juego existente. | ![Editar Juego](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Editar_juego.jpeg) |
+| **Eliminar Juego**<br/>Eliminación definitiva de un juego. | ![Eliminar](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Eliminar.jpeg) |
+| **Lista de Juegos**<br/>Visualización de juegos registrados. | ![Lista de Juegos](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Lista_de_juegos.jpeg) |
 
 ---
 
-### 🗑️ 6. Eliminar Juego
-Elimina definitivamente un juego de la base de datos.
+## 🌐 Firebase Realtime Database
 
-![Eliminar](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Eliminar.jpeg)
+Estructura en la nube donde se almacenan los juegos:
 
----
-
-### 📂 7. Lista de Juegos
-Muestra todos los juegos añadidos por el usuario.
-
-![Lista de Juegos](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Lista_de_juegos.jpeg)
-
----
-
-### 🌐 8. Firebase Realtime Database
-Estructura en la nube donde se almacenan los juegos.
-
-![Realtime Database](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Realtime_Database.PNG)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Realtime_Database.PNG" alt="Firebase Realtime Database"/>
+</p>
 
 ---
 
@@ -90,4 +65,3 @@ Estructura en la nube donde se almacenan los juegos.
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/LeonardoDRR31/Aplicaciones-Moviles
-
