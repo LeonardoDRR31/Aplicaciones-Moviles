@@ -11,5 +11,5 @@ data class Game(
     val releaseYear: Int = 0,
     val completed: Boolean = false,
     val userId: String = "",
-    val createdAt: Long = System.currentTimeMillis()
+    val createdAt: Long = System.currentTimeMillis(),
 )

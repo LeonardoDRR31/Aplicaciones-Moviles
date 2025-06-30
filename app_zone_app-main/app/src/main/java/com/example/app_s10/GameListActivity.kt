@@ -50,11 +50,13 @@ class GamesListActivity : AppCompatActivity() {
                     val newGames = mutableListOf<Game>()
                     for (gameSnap in snapshot.children) {
                         val game = gameSnap.getValue(Game::class.java)
-                        game?.let { newGames.add(it) }
+                        if (game != null) {
+                            val gameWithId = game.copy(id = gameSnap.key ?: "")
+                            newGames.add(gameWithId)
+                        }
                     }
                     adapter.updateGames(newGames)
                 }
-
                 override fun onCancelled(error: DatabaseError) {
                     Toast.makeText(this@GamesListActivity, "Error: ${error.message}", Toast.LENGTH_SHORT).show()
                 }

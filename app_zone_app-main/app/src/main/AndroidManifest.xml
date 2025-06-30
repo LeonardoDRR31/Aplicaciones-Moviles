@@ -31,6 +31,9 @@
 
         <activity android:name=".GamesListActivity" />
 
+        <activity android:name=".EditGameActivity" />
+
+
         <!-- Actividad de login (punto de entrada) -->
         <activity
             android:name=".LoginActivity"
