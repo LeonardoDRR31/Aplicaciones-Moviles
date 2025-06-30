@@ -21,6 +21,9 @@
 ### 🔑 1. Pantalla de Login y Registro
 Permite crear una cuenta o iniciar sesión.
 ![Login](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Login.jpeg)
+
+### 🔑 2. Pantalla de Login y Registro
+Permite crear una cuenta o iniciar sesión.
 ![Authentication](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/Authentication.PNG)
 
 ---
@@ -34,6 +37,7 @@ Desde aquí puedes acceder a todas las funciones principales.
 
 ### ➕ 3. Añadir un Juego
 Formulario para registrar un nuevo juego.
+
 ![Añadir Juego](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/22db92fafaec130900435d6ae3e55ede0b376426/app_zone_app-main/assets/A%C3%B1adir_juego.jpeg)
 
 ---
