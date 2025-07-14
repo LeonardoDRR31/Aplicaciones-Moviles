@@ -21,7 +21,7 @@ Bienvenido a **UNS Login**, una aplicación móvil de autenticación diseñada e
 
 | Pantalla de Inicio | Registro | Dashboard |
 |--------------------|----------|-----------|
-| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login]https://github.com/LeonardoDRR31/Aplicaciones-Moviles/blob/bb563ac05599a3e41113898b85a09231a7e8689a/LoginConLiveData/assets/login_principal.jpeg | ![Register](screenshots/register.png) | ![Dashboard](screenshots/dashboard.png) |
 
 ---
 
