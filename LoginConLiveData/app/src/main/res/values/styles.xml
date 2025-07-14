@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WhiteHintTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="hintTextColor">@color/hint_white</item>
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="boxStrokeErrorColor">@android:color/holo_red_light</item>
+        <item name="hintEnabled">true</item>
+    </style>
+    <style name="CircleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

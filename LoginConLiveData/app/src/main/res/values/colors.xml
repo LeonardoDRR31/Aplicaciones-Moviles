@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    //Fondo de pantalla degradado
+    <color name="ColorUno">#BA2121</color>
+    <color name="ColorDos">#8248EB</color>
+    <color name="ColorTres">#84FFFF</color>
+    <color name="ColorCuatro">#6BBF3B</color>
+
+</resources>
