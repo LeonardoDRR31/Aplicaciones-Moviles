@@ -1,6 +1,6 @@
 # 📱 UNS Login App
 
-**UNS Login** es una aplicación móvil desarrollada para gestionar de manera segura el inicio de sesión y registro de usuarios pertenecientes a la **Universidad Nacional del Sur (UNS)**. Esta app implementa autenticación basada en correos institucionales, validación en tiempo real y una experiencia moderna con diseño visual atractivo y animaciones.
+**UNS Login** es una aplicación móvil desarrollada para gestionar de manera segura el inicio de sesión y registro de usuarios pertenecientes a la **Universidad Nacional del Santa (UNS)**. Esta app implementa autenticación basada en correos institucionales, validación en tiempo real y una experiencia moderna con diseño visual atractivo y animaciones.
 
 ---
 
