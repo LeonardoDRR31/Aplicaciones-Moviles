@@ -21,7 +21,7 @@ Bienvenido a **UNS Login**, una aplicación móvil de autenticación diseñada e
 
 | Pantalla de Inicio | Registro | Dashboard |
 |--------------------|----------|-----------|
-| ![Login](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/bb563ac05599a3e41113898b85a09231a7e8689a/LoginConLiveData/assets/login_principal.jpeg) | ![Register](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/blob/1dd79678b8ad476c9c7e7bb4066368e84df05665/LoginConLiveData/assets/registro.jpeg) | ![Dashboard](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/blob/1dd79678b8ad476c9c7e7bb4066368e84df05665/LoginConLiveData/assets/pantalla_bienvenida.jpeg) |
+| ![Login](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/bb563ac05599a3e41113898b85a09231a7e8689a/LoginConLiveData/assets/login_principal.jpeg) | ![Register](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/1dd79678b8ad476c9c7e7bb4066368e84df05665/LoginConLiveData/assets/registro.jpeg) | ![Dashboard](https://raw.githubusercontent.com/LeonardoDRR31/Aplicaciones-Moviles/1dd79678b8ad476c9c7e7bb4066368e84df05665/LoginConLiveData/assets/pantalla_bienvenida.jpeg) |
 
 ---
 
