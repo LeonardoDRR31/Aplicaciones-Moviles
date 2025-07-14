@@ -35,24 +35,10 @@ Bienvenido a **UNS Login**, una aplicación móvil de autenticación diseñada e
 
 ---
 
-## 🧪 Cómo probar
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/uns-login-app.git
-   ```
-
-2. Abre el proyecto en Android Studio.
-
-3. Añade tu archivo `google-services.json` en `app/`.
-
-4. Ejecuta en un emulador o dispositivo físico.
-
----
 
 ## 🙋 Autor
 
-Desarrollado por [Tu Nombre] – 2025  
+Desarrollado por Leonardo Rojas – 2025  
 Proyecto de autenticación con LiveData para la UNS.
 
 ---
