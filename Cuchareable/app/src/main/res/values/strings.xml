@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cuchareable</string>
+    <string name="category_icon">Ícono de categoría</string>
+    <string name="search">Buscar</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.cuchareable.view.ui.fragments.MapFragment"
+        tools:layout="@layout/fragment_map"
+        android:label="Mapa" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.example.cuchareable.view.ui.fragments.CategoriesFragment"
+        tools:layout="@layout/fragment_categories"
+        android:label="Categorías" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.cuchareable.view.ui.fragments.FavoritesFragment"
+        tools:layout="@layout/fragment_favorites"
+        android:label="Favoritos" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.cuchareable.view.ui.fragments.AddLugarFragment"
+        tools:layout="@layout/fragment_add_lugar"
+        android:label="Añadir Lugar" />
+
+</navigation>
